@@ -1,12 +1,12 @@
 # i-CreatorZ-Chat-Bot
 This is base on https://www.techwithtim.net/tutorials/ai-chatbot/ 
 
-## Requirement
+## Installation
 ```
 pip install requirements.txt
 ```
 
-## NLTK Installation
+### NLTK Installation
 https://www.nltk.org/data.html
 For central installation on a multi-user machine, do the following from an administrator account.
 
