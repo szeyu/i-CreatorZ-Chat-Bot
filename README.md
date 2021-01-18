@@ -15,3 +15,8 @@ Run the Python interpreter and type the commands:
 >>> import nltk
 >>> nltk.download()
 ```
+
+## What it does?
+It is built to facilitate the interaction between i-CreatorZ committe and members. 
+We will put this flask server into facebook token then run it publicly.
+
