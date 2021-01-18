@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title> i-CreatorZ Chat Bot </title>
+	</head>
+	
+	<body>
+		<h1> Welcome to i-CreatorZ Chat Bot </h1>
+		<h2> You can start by saying "Hi" </h2>
+		<p> {{content}} <p>
+		<p> {{r}} </P>
+		{% for i in range(10)%}
+			{% if i % 2 == 1%}
+				<p> hello {{i}}<p>
+			{% endif %}
+		{% endfor %}
+		
+		{% for x in content%}
+			<p> {{x}} <p>
+		{% endfor %}
+		
+		
+	</body>
+
+
+</html>

@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Hey", "Hello", "Good day", "Whats up"],
+         "responses": ["Welcome to i-CreatorZ, How can I help you?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "activity",
+         "patterns": ["activity", "upcoming activity", "do there any upcoming activity?", "next activity", "activity?"],
+         "responses": ["there is no upcoming activity"], 
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me i-CreatorZ Bot.", "I'm i-CreatorZ Bot!", "I'm i-CreatorZ Bot."],
+         "context_set": ""
+        },
+        {"tag": "discord",
+         "patterns": ["discord", "I-CreatorZ discord", "icrz discord", "How to join discord", "link to discord channel", "discord channel"],
+         "responses": ["Here is the link: "],
+         "context_set": ""
+        },
+        {"tag": "facebook",
+         "patterns": ["facebook", "I-CreatorZ facebook", "icrz facebook", "is there facebook page?", "link to facebook page", "fb"],
+         "responses": ["Here is the link: "],
+         "context_set": ""
+        },
+        {"tag": "instagram",
+         "patterns": ["instagram", "I-CreatorZ instagram", "icrz instagram", "is there instagram page", "link to instagram page", "insta"],
+         "responses": ["Here is the link: "],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you available", "what are your hours", "hours of operation"],
+         "responses": ["It depends, I usually available between 2pm till 7pm."],
+         "context_set": ""
+        },
+        {"tag": "competition",
+         "patterns": ["Is there any competition?", "competition"],
+         "responses": ["Pistek, (link), (detail)"],
+         "context_set": ""
+        },
+        {"tag": "t-shirt",
+         "patterns": ["t-shirt", "t shirt", "shirt", "How much is T-shirt?", "T-shirt price"],
+         "responses": ["T-shirt, (google form), (detail)"],
+         "context_set": ""
+        },
+        {"tag": "inapropiate word",
+         "patterns": ["fuck", "cb", "cibai", "damn you", "bitch"],
+         "responses": ["Ok"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["thanks", "thank you", "you are good", "awsome", "great"],
+         "responses": ["You're welcome !"],
+         "context_set": ""
+        }
+        
+   ]
+}
