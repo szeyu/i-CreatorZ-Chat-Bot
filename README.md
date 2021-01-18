@@ -18,5 +18,8 @@ Run the Python interpreter and type the commands:
 
 ## What it does?
 It is built to facilitate the interaction between i-CreatorZ committe and members. 
+Members can ask this bot question and get their answer instantly.
+
+## Future plan
 We will put this flask server into facebook token then run it publicly.
 
