@@ -15,6 +15,8 @@ Run the Python interpreter and type the commands:
 >>> import nltk
 >>> nltk.download()
 ```
+## Checkpoint file
+Please change something inside and state the path to the model directory. Don't follow mine.
 
 ## What it does?
 It is built to facilitate the interaction between i-CreatorZ committe and members. 
