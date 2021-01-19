@@ -5,7 +5,7 @@ stemmer = LancasterStemmer()
 
 import numpy as np
 import tflearn
-import tensorflow as tf
+#import tensorflow as tf
 import random
 from tensorflow.python.framework import ops
 import pickle
@@ -20,7 +20,7 @@ with open('json file/intents.json') as json_data:
     data = json.load(json_data)
     
 
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask, render_template, request
 app = Flask(__name__, template_folder='templates')
 
 messages = []
